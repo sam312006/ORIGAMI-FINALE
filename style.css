@@ -1,0 +1,47 @@
+
+body{
+        background-image: url('BACKGROUND.jpg');
+
+}
+
+.header{
+    color:#AABBFF ;
+}
+
+.grid{
+    
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+.Menu a{
+        margin-left: 20px;
+}
+
+.item{
+    
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
+
